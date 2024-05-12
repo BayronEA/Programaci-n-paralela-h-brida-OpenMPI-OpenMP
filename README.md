@@ -19,10 +19,10 @@ Y ejecutamos de la siguiente forma, -np es el numero de nucleos que tenemos disp
 mpirun -np 4 nombredelcompilador
 ```
 
-Ejercicio 9
+##### Ejercicio 9
 Escribir un programa paralelo con OpenMpi, que genere una matriz de tamaño 4xN en el proceso maestro y 
 distribuya cada fila de la matriz en un proceso diferente. Cada proceso debe calcular el máximo, el mínimo y 
 el promedio de su fila asignada y retornar los resultados al proceso maestro, quien debe reunir los datos 
 recibidos en un vector de máximos, un vector de mínimos y un vector de promedios de las filas de la matriz 
 original.
-Solución en el ejer9.c
+- Solución en el ejer9.c
